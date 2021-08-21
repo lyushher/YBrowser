@@ -16,8 +16,6 @@ def todo(TODO):
             webbrowser.open('https://github.com')
         elif 'stackoverflow' in TODO:
             webbrowser.open('https://stackoverflow.com')
-        elif 'dev' or 'dev comminty' in TODO:
-            webbrowser.open('https://dev.to')
         elif 'facebook' in TODO:
             webbrowser.open('https://www.facebook.com')
         elif 'instagram' in TODO:
