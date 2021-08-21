@@ -14,7 +14,6 @@ visible = EC.visibility_of_element_located
 presence = EC.presence_of_element_located
 clickable = EC.element_to_be_clickable
 
-
 class Browser:
     def __init__(self, cookies_file='data/cookies.json', virtual_display=True, log_file=None):
         self.logger = logging.getLogger()
