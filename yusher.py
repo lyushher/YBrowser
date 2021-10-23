@@ -18,6 +18,8 @@ def todo(TODO):
             webbrowser.open('https://stackoverflow.com')
         elif 'facebook' in TODO:
             webbrowser.open('https://www.facebook.com')
+        elif 'discord' in TODO:
+            webbrowser.open('https://discord.com')
         elif 'instagram' in TODO:
             webbrowser.open('https://www.instagram.com')
         elif 'twitter' in TODO:
