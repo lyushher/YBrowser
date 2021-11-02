@@ -53,7 +53,7 @@ entry.focus()
 search = tk.Button(frame,text='Search', font=("Gill Sans", 26), command=lambda: todo(entry.get()))
 search.place(relx=0.13, rely=0.24, relwidth=0.04, relheight=0.025)
 
-# Little decoration:)
+# Little decoration :)
 d1 = tk.Label(frame, text='☁︎', fg="#7b5cc7", bg="#FFFEF7")
 d1.place(relx=0.05, rely=0.07)
 d2 = tk.Label(frame, text='☁︎', fg="#7b5cc7", bg="#FFFEF7")
